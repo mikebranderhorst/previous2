@@ -1,0 +1,24 @@
+{
+    "name": "branderhorst/module-previous2",
+    "description": "Add tab with recently viewed items to customer account view",
+    "require": {
+        "php": "7.0.2|7.0.4|~7.0.6|~7.1.0",
+        "magento/module-store": "100.2.*",
+        "magento/module-catalog": "102.0.*",
+        "magento/module-customer": "101.0.*",
+        "magento/module-eav": "101.0.*",
+        "magento/module-theme": "100.2.*",
+        "magento/framework": "101.0.*",
+        "magento/module-ui": "101.0.*"
+    },
+    "type": "magento2-module",
+    "version": "2.0.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Branderhorst\\Previous2\\": ""
+        }
+    }
+}
